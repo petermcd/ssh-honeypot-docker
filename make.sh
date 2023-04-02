@@ -4,7 +4,7 @@ docker build --tag full -f ssh_honeypot.dockerfile .;
 IMAGE_ID=$(docker run -d full);
 
 python3 -m venv venv;
-./venv/bin/python -m pip install --update pip;
+./venv/bin/python -m pip install --upgrade pip;
 ./venv/bin/pip install git+https://github.com/petermcd/docker-build.git;
 ./venv/bin/python build_dockerfile.py "$IMAGE_ID";
 
