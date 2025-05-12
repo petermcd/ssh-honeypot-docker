@@ -9,7 +9,7 @@ This has had no testing so far, use this at your own risk.
 
 ## Build Yourself
 
-If you would like to build the docker image yourself simply run:
+If you would like to build the docker image yourself, run:
 
 ```shell
 ./make.sh
@@ -23,7 +23,7 @@ You can start the honeypot by running the following command:
 docker run -p 22222:22 -P petermcd/ssh_honeypot:latest
 ```
 
-This will begin the honeypot, you will also be required to enable port forwarding on your router from port 22 -> 22222
+This will begin the honeypot, you will also be required to enable port forwarding on your router from port 22 to 22,222
 on the host hosting the honeypot.
 
 ### TODO

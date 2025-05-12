@@ -2,12 +2,12 @@
 
 ## Supported Versions
 
-This repository ONLY supports the latest master branch. If you choose to use this
-you should **ALWAYS** keep it upto date.
+This repository ONLY supports the latest main branch. If you choose to use this,
+you should **ALWAYS** keep it up to date.
 
 ## Reporting a Vulnerability
 
-To report an issue please post a bug report in the [issues](https://github.com/petermcd/ssh-honeypot-docker/issues)
+To report an issue, please post a bug report in the [issues](https://github.com/petermcd/ssh-honeypot-docker/issues)
 section.
 
-Once a report has been received we will endeavor to remove the bug within 7 days.
+Once a report has been received, we will endeavor to remove the bug within 7 days.
